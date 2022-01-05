@@ -12,7 +12,7 @@ setuptools.setup(
     description="A small package", # A one sentence description of your package
     long_description=long_description, # A longer description from your `README.md`
     long_description_content_type="markdown", # The format of you long_description file
-    url="https://github.com/addUserNameHere", # GitHub where to find your code
+    url="https://github.com/ElafSHajjar/elaf_Package", # GitHub where to find your code
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
