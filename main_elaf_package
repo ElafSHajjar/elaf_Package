@@ -1,0 +1,48 @@
+#Packages_Assignment
+
+class elafClass:
+
+    def __init__(self):
+        self.list = [3,5,7,30,9,72,91,14,39,19,28,30]
+    def return_max(self):
+        return max(self.list)
+    def return_min(self):
+        return min(self.list)
+    def return_max_squared(self):
+        m = max(self.list)
+        return m*m
+    def return_length(self):
+        return len(self.list)
+    def return_positive_sum(self):
+        s = 0
+        for i in self.list:
+            if i%2 == 0:
+                s+=i
+        return s
+    def return_negative_sum(self):
+        s = 0
+        for i in self.list:
+            if i%2 != 0:
+                s+=i
+        return s
+    def return_number_of_odd(self):
+        n = 0
+        for i in self.list:
+            if i%2 != 0:
+                n+=1
+        return n
+    def return_number_of_even(self):
+        n = 0
+        for i in self.list:
+            if i%2 == 0:
+                n+=1
+        return n
+m = elafClass()
+print(m.return_max())
+print(m.return_min())
+print(m.return_max_squared())
+print(m.return_length())
+print(m.return_positive_sum())
+print(m.return_negative_sum())
+print(m.return_number_of_odd())
+print(m.return_number_of_even())
